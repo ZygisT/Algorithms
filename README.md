@@ -1,4 +1,4 @@
-## Collection of Javascript algorithm snippets
+## Collection of Data Structures and Algorithms in Javascript
 
 * Reverse String
   - With Methods
@@ -6,3 +6,5 @@
   - Recursively
 
 * Queues
+
+* Binary Search Tree

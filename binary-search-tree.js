@@ -51,8 +51,11 @@ class BST {
             // where to put node again (Recursiveness)
             return searchTree(node.left);
           }
+        } else {
+          return null;
         }
-      }
+      };
+      return searchTree(node);
     }
   }
 }
