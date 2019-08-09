@@ -16,7 +16,6 @@ class BST {
     this.root = null;
   }
 
-  // add function
   add(data) {
     // Referance to root node
     const node = this.root;
@@ -25,7 +24,6 @@ class BST {
       this.root = new Node(data);
       return;
     } else {
-      // Recursive function
 
       // Node starts as root node
       const searchTree = function(node) {
@@ -36,8 +34,6 @@ class BST {
             node.left = new Node(data);
             return;
           } else if (node.left !== null) {
-            // Return searchTree and start searching
-            // where to put node again (Recursiveness)
             return searchTree(node.left);
           }
           // If node data is more than node.data put
@@ -47,9 +43,7 @@ class BST {
             node.right = new Node(data);
             return;
           } else if (node.right !== null) {
-            // Return searchTree and start searching
-            // where to put node again (Recursiveness)
-            return searchTree(node.left);
+            return searchTree(node.right);
           }
         } else {
           return null;
@@ -159,15 +153,16 @@ class BST {
 
 const bst = new BST();
 
+bst.add(17);
 bst.add(5);
+bst.add(22);
 bst.add(9);
 bst.add(1);
-bst.add(3);
-bst.add(7);
-bst.add(4);
-// bst.add(2);
-// bst.remove(5)
-// console.log(bst.findMin());
-// console.log(bst.findMax());
-// console.log(bst.findMax());
-// console.log(bst.isPresent(5));
+bst.add(16);
+bst.add(10);
+bst.remove(17)
+console.log(bst.findMin());
+console.log(bst.findMax());
+bst.remove(22);
+console.log(bst.findMax());
+console.log(bst.isPresent(22));
