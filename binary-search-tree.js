@@ -149,6 +149,14 @@ class BST {
     this.root = removeNode(this.root, data);
   }
 
+  /*  Check if tree is balanced
+      Tree is balanced if difference between min height
+      and max height is not more 1
+  */
+  isBalanced() {
+    return (this.findMinHeight >= this.findMaxHeight - 1)
+  }
+
   findMinHeight(node = this.root) {
     if (node == null) {
       return -1;
