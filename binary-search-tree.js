@@ -156,7 +156,7 @@ class BST {
   */
 
   isBalanced() {
-    return (this.findMinHeight >= this.findMaxHeight - 1)
+    return (this.findMinHeight() >= this.findMaxHeight() - 1)
   }
 
   findMinHeight(node = this.root) {
@@ -178,8 +178,8 @@ class BST {
     if (node == null) {
       return -1;
     };
-    let left = this.findMinHeight(node.left);
-    let right = this.findMinHeight(node.right);
+    let left = this.findMaxHeight(node.left);
+    let right = this.findMaxHeight(node.right);
     if(left > right) {
       return left + 1;
     } else {
@@ -276,13 +276,21 @@ class BST {
 
 const bst = new BST();
 
-bst.add(17);
-bst.add(5);
+bst.add(9);
 bst.add(4);
-bst.add(10);
-bst.add(34);
+bst.add(17);
+bst.add(3);
+bst.add(6);
+bst.add(22);
+bst.add(5);
+bst.add(7);
 bst.add(20);
-bst.add(25);
+
+console.log(bst.findMinHeight());
+console.log(bst.findMaxHeight());
+console.log(bst.isBalanced());
+bst.add(10);
+
 // bst.remove(17)
 // console.log(bst.findMin());
 // console.log(bst.findMax());
