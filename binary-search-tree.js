@@ -276,20 +276,18 @@ class BST {
 
 const bst = new BST();
 
-bst.add(9);
-bst.add(4);
-bst.add(17);
-bst.add(3);
-bst.add(6);
-bst.add(22);
-bst.add(5);
-bst.add(7);
-bst.add(20);
+// Tree #1
 
-console.log(bst.findMinHeight());
-console.log(bst.findMaxHeight());
-console.log(bst.isBalanced());
-bst.add(10);
+// bst.add(9);
+// bst.add(4);
+// bst.add(17);
+// bst.add(3);
+// bst.add(6);
+// bst.add(22);
+// bst.add(5);
+// bst.add(7);
+// bst.add(20);
+// bst.add(10);
 
 // bst.remove(17)
 // console.log(bst.findMin());
@@ -297,6 +295,36 @@ bst.add(10);
 // // bst.remove(22);
 // console.log(bst.findMax());
 // console.log(bst.isPresent(22));
+
+// console.log(bst.findMinHeight());
+// console.log(bst.findMaxHeight());
+// console.log(bst.isBalanced());
+
+// console.log(bst.inOrder());
+// console.log(bst.preOrder());
+// console.log(bst.postOrder());
+// console.log(bst.levelOrder());
+
+// Tree #2
+
+bst.add(50);
+bst.add(17);
+bst.add(72);
+bst.add(12);
+bst.add(23);
+bst.add(9);
+bst.add(14);
+bst.add(19);
+bst.add(54);
+bst.add(67);
+bst.add(76);
+
+// bst.remove(54)
+// console.log(bst.findMin());
+// console.log(bst.findMax());
+// // bst.remove(22);
+// console.log(bst.findMax());
+// console.log(bst.isPresent(23));
 
 console.log(bst.findMinHeight());
 console.log(bst.findMaxHeight());
