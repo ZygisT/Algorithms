@@ -141,3 +141,16 @@ function LinkedList() {
   }
 };
 
+let newList = new LinkedList();
+newList.add('Car');
+newList.add('House');
+newList.add('Suit');
+newList.add('Pet');
+newList.add('Hobby');
+console.log(newList.size());
+console.log(newList.removeAt(3));
+console.log(newList.elementAt(3));
+console.log(newList.indexOf('Suit'));
+console.log(newList.size());
+
+

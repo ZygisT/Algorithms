@@ -7,3 +7,5 @@
 * Binary Search Tree
 
 * Hash Table
+
+* Linked List
