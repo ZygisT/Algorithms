@@ -1,4 +1,4 @@
-## Collection of Data Structures and Algorithms in Javascript
+## Data Structures and Algorithms in Javascript
 
 * Reverse String
 
