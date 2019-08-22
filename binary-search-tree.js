@@ -292,7 +292,7 @@ bst.add(10);
 bst.remove(17)
 console.log(bst.findMin());
 console.log(bst.findMax());
-// bst.remove(22);
+bst.remove(22);
 console.log(bst.findMax());
 console.log(bst.isPresent(22));
 
@@ -322,7 +322,7 @@ bst.add(76);
 bst.remove(54)
 console.log(bst.findMin());
 console.log(bst.findMax());
-// bst.remove(22);
+bst.remove(22);
 console.log(bst.findMax());
 console.log(bst.isPresent(23));
 

@@ -1,5 +1,6 @@
 /* Hash table */
 
+// Simple hash table
 let hash = (string, max) => {
   let hash = 0;
   for (let i = 0; i < string.length; i++) {
