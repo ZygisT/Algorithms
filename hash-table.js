@@ -72,7 +72,7 @@ let hashTable = function() {
   };
 };
 
-// console.log(hash('John', 10000))
+console.log(hash('John', 10000))
 
 let ht = new hashTable();
 ht.add('Tom', 'person');
