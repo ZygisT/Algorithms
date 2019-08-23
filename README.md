@@ -9,3 +9,5 @@
 * Hash Table
 
 * Linked List
+
+`Compilation of various snippets of code to solve some data structures and algorithms. Some solutions provided are not uniquely written by me.`
