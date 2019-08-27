@@ -34,3 +34,26 @@ function hiddenCode() {
 const getCode = hiddenCode()
 
 console.log(getCode())
+
+
+// Longest Word
+// Find the longest word in the string
+
+function findWord(word) {
+
+  // Split the words in the given string
+  word.replace(/[^a-z0-9]/g, '');
+  
+  // Return an array containing each word
+  let arr = word.split(' ')
+
+  // Sort each array index (word) by it's length
+  arr.sort((a,b) => {return b.length - a.length})
+  
+  // Return first item in the array (after sorting longest word will be first)
+  return arr[0]
+  
+}
+
+console.log(findWord(' John and Mary bought 5 apples and 3 oranges '))
+
