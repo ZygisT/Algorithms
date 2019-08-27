@@ -12,4 +12,4 @@
 
 * Exercises
 
-`Compilation of various snippets of code to solve some data structures and algorithms. Some solutions provided are not uniquely written by me.`
+`Compilation of various snippets of code to solve some data structures, algorithms and general js exercises. Some solutions provided are not solved by me.`
