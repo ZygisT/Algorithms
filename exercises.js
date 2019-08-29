@@ -82,3 +82,12 @@ function replaceLetters(word) {
 
 console.log(replaceLetters('Pizza'));
 
+
+// String to lowercase 
+
+var toLowerCase = function(str) {
+  return str.toLowerCase()
+};
+
+toLowerCase('Hello')
+
