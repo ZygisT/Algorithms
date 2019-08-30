@@ -99,3 +99,11 @@ var toUpperCase = function(str) {
 
 toUpperCase('hello')
 
+// Generate random number
+
+function random(){
+  return 1 + Math.random() * 4;
+}
+
+random()
+
