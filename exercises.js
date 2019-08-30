@@ -91,3 +91,11 @@ var toLowerCase = function(str) {
 
 toLowerCase('Hello')
 
+// String to Uppercase 
+
+var toUpperCase = function(str) {
+  return str.toUpperCase()
+};
+
+toUpperCase('hello')
+
