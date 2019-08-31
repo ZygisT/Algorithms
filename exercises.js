@@ -107,3 +107,11 @@ function random(){
 
 random()
 
+// Simple slice method
+
+var shortenArray = (arr, start, end) => {
+  return arr.slice(start, end)
+}
+
+shortenArray([1,true,'Pizza', undefined, null], 0, 3)
+
