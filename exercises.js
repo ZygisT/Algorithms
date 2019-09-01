@@ -11,6 +11,10 @@ test(myArr, () => console.log('Array has been modified'));
 
 
 
+// ____________________________________________________________________________________
+
+
+
 // Js Closures
 
 // Get the private variable (secret code)
@@ -36,6 +40,11 @@ const getCode = hiddenCode()
 console.log(getCode())
 
 
+
+// ___________________________________________________________________________________
+
+
+
 // Longest Word
 // Find the longest word in the string
 
@@ -56,6 +65,11 @@ function findWord(word) {
 }
 
 console.log(findWord(' John and Mary bought 5 apples and 3 oranges '))
+
+
+
+// ____________________________________________________________________________________
+
 
 
 // Replace letters and capitalize vowels
@@ -83,6 +97,11 @@ function replaceLetters(word) {
 console.log(replaceLetters('Pizza'));
 
 
+
+// ____________________________________________________________________________________
+
+
+
 // String to lowercase 
 
 var toLowerCase = function(str) {
@@ -90,6 +109,12 @@ var toLowerCase = function(str) {
 };
 
 toLowerCase('Hello')
+
+
+
+// ____________________________________________________________________________________
+
+
 
 // String to Uppercase 
 
@@ -99,6 +124,12 @@ var toUpperCase = function(str) {
 
 toUpperCase('hello')
 
+
+
+// ____________________________________________________________________________________
+
+
+
 // Generate random number
 
 function random(){
@@ -107,6 +138,12 @@ function random(){
 
 random()
 
+
+
+// ____________________________________________________________________________________
+
+
+
 // Simple slice method
 
 var shortenArray = (arr, start, end) => {
@@ -114,4 +151,20 @@ var shortenArray = (arr, start, end) => {
 }
 
 shortenArray([1,true,'Pizza', undefined, null], 0, 3)
+
+
+
+// ____________________________________________________________________________________
+
+
+
+// Merge arrays and sort the merged array
+
+
+var arrayMerge = (arr1, arr2) => {
+
+  return [...arr1,...arr2].sort((a, b) => a - b)
+}
+
+console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
