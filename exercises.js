@@ -174,11 +174,9 @@ console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
 
 
-// Js Object and array
-// Return an array which holds all object keys and values
+// Js Object
 
-
-var LamborghiniCar = {
+var car = {
   name: 'Lamborghini',
   series: 'Aventador',
   model: 'S',
@@ -189,14 +187,10 @@ var LamborghiniCar = {
   overview: 'An icon cannot be reinvented, it can only be challenged. And only Aventador could surpass itself. Following Miura, Islero, Countach, and Urraco, Lamborghini’s most iconic model now reaps the inheritance of the historic S models and evolves into the new Aventador S.'
 }
 
-function carSpecification(car) {
 
-  let arr = Object.entries(car)
+car.fullName()
 
-  return arr
 
-}
 
-carSpecification(LamborghiniCar)
 
 
