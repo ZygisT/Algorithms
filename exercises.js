@@ -168,3 +168,35 @@ var arrayMerge = (arr1, arr2) => {
 
 console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
+
+
+// ____________________________________________________________________________________
+
+
+
+// Js Object and array
+// Return an array which holds all object keys and values
+
+
+var LamborghiniCar = {
+  name: 'Lamborghini',
+  series: 'Aventador',
+  model: 'S',
+  fullName: function() {
+    return `${this.name} ${this.series} ${this.model}`
+  },
+  yearOfRelease: 2017,
+  overview: 'An icon cannot be reinvented, it can only be challenged. And only Aventador could surpass itself. Following Miura, Islero, Countach, and Urraco, Lamborghini’s most iconic model now reaps the inheritance of the historic S models and evolves into the new Aventador S.'
+}
+
+function carSpecification(car) {
+
+  let arr = Object.entries(car)
+
+  return arr
+
+}
+
+carSpecification(LamborghiniCar)
+
+
