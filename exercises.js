@@ -176,6 +176,7 @@ console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
 // Js Object
 
+
 var car = {
   name: 'Lamborghini',
   series: 'Aventador',
@@ -189,6 +190,43 @@ var car = {
 
 
 car.fullName()
+
+
+
+// ____________________________________________________________________________________
+
+
+
+// Js return sum of two numbers
+
+
+function returnSum(x, y) {
+  return x + y
+}
+
+returnSum(2, 2)
+
+
+
+// ____________________________________________________________________________________
+
+
+
+// Remove duplicates
+
+
+function removeDupes(arr) {
+  return new Set(arr) 
+}
+
+removeDupes([1, 1,'hello', 'bye', 'hello'])
+
+
+
+
+
+
+
 
 
 
