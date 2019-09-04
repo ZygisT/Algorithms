@@ -223,6 +223,30 @@ removeDupes([1, 1,'hello', 'bye', 'hello'])
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Check if item exists in the array
+// IndexOf method checks if items exists in array and returns index of that item
+// If item is not in the array indexOf returns -1
+
+
+function checkIndex(arr) {
+  return arr.indexOf('hello')
+
+}
+
+checkIndex(['hello'])
+
+
+
+
+
+
+
+
+
 
 
 
