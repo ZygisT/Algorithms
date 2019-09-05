@@ -227,17 +227,26 @@ removeDupes([1, 1,'hello', 'bye', 'hello'])
 
 
 
-// Check if item exists in the array
-// IndexOf method checks if items exists in array and returns index of that item
-// If item is not in the array indexOf returns -1
+// Check if all letters exist in the target string
+// IndexOf method checks if letters from checkString exist in the targetString
+// If letter does not match it returns -1 if it does returns 0
+// -1 and 0 returns different string outputs
 
 
 function checkIndex(arr) {
-  return arr.indexOf('hello')
+  let targetString = arr[0].toLowerCase();
+  let checkString = arr[1].toLowerCase();
+  
+  for (var i = 0; i < checkString.length; i++) {
+    if(targetString.indexOf(checkString[i]) < 0) {
+      return 'All letters are NOT in the target string'
+    }
+  }
 
+  return 'All letters ARE in the target string' 
 }
 
-checkIndex(['hello'])
+checkIndex(['Pizza costs 2 dollars', '2 oranges are better than one'])
 
 
 
