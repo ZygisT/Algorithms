@@ -250,6 +250,23 @@ checkIndex(['Pizza costs 2 dollars', '2 oranges are better than one'])
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// 2D Array
+// Return value from the 2D array
+
+function returnVal(arr) {
+  return arr[0][1]
+}
+
+returnVal([['String 1','String 2'], '1D array'])
+
+
+
+
+
 
 
 
