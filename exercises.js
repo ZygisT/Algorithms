@@ -265,6 +265,27 @@ returnVal([['String 1','String 2'], '1D array'])
 
 
 
+// ____________________________________________________________________________________
+
+
+// Check if string is empty
+
+
+function checkString(str) {
+  if(str === "") {
+    return true
+  }
+
+  return false
+}
+
+checkString(' ')
+
+
+
+
+
+
 
 
 
