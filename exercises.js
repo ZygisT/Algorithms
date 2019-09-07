@@ -268,6 +268,7 @@ returnVal([['String 1','String 2'], '1D array'])
 // ____________________________________________________________________________________
 
 
+
 // Check if string is empty
 
 
@@ -280,6 +281,27 @@ function checkString(str) {
 }
 
 checkString(' ')
+
+
+
+// ____________________________________________________________________________________
+
+
+
+// Return hello if num is 1, return bye if num is 0
+// Pass a name and a number into the function
+// Number higher than 1 will return undefined
+
+
+var returnString = (name, num) => {
+  if(num === 1) {
+    return `Hello ${name}`
+  } else if (num === 0) {
+    return `Bye ${name}`
+  }
+}
+
+returnString('Joe', 1)
 
 
 
