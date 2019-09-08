@@ -305,6 +305,29 @@ returnString('Joe', 1)
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Build class and calculate area
+
+class Square {
+  constructor(height, width) {
+    this.height = height;
+    this.width = width;
+  }
+
+  calcArea()  {
+    return this.height * this.width
+  }
+}
+
+let shape = new Square(10, 10)
+
+console.log(shape.calcArea())
+
+
+
 
 
 
