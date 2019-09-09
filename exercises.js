@@ -212,6 +212,7 @@ car.fullName()
 
 
 // Js return sum of two numbers
+// Simple function to return sum of two numbers
 
 
 function returnSum(x, y) {
@@ -227,6 +228,7 @@ returnSum(2, 2)
 
 
 // Remove duplicates
+// New Set returns a new array without duplicates
 
 
 function removeDupes(arr) {
@@ -284,6 +286,8 @@ returnVal([['String 1','String 2'], '1D array'])
 
 
 // Check if string is empty
+// If string has empty space it is NOT considered empty since empty space is a symbol
+
 
 
 function checkString(str) {
