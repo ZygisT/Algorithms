@@ -354,11 +354,14 @@ console.log(shape.calcArea())
 // Create RegExp to define what special characters you want to remove
 
 var removeChars = (str) => {
-  return str.replace(/!|@|#|$|%|^|&|\|*/gi, '')
+  // return str.replace(/!|@|#|$|%|^|&|\|*/gi, '')
+  return str.replace(/[^a-zA-Z0-9 ]/g, '')
+
 }
 
 removeChars('He said - Stop! Then told me his email address joedoe@gmail.com')
 removeChars('20% of customers bought pizza & drinks')
+removeChars('%ab88$$zz1--)@!!aaab.')
 
 
 
