@@ -365,6 +365,25 @@ removeChars('%ab88$$zz1--)@!!aaab.')
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Reverse word with 5 characters or more
+
+
+function reverseWord(arg) {
+  if(arg.length >= 5) {
+    return arg.split('').reverse().join('')
+  }
+
+  return 'String is shorter than 5 characters'
+}
+
+reverseWord('Pizza')
+
+
+
 
 
 
