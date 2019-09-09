@@ -103,6 +103,7 @@ console.log(replaceLetters('Pizza'));
 
 
 // String to lowercase 
+// toLowerCase method returns string lowercased
 
 var toLowerCase = function(str) {
   return str.toLowerCase()
@@ -117,6 +118,7 @@ toLowerCase('Hello')
 
 
 // String to Uppercase 
+// toUpperCase method returns string uppercased
 
 var toUpperCase = function(str) {
   return str.toUpperCase()
@@ -131,6 +133,7 @@ toUpperCase('hello')
 
 
 // Generate random number
+// Math.random returns a number from 0 to 1 (decimal number)
 
 function random(){
   return 1 + Math.random() * 4;
@@ -145,6 +148,8 @@ random()
 
 
 // Simple slice method
+// Slice method returns new array starting and ending at specific index
+
 
 var shortenArray = (arr, start, end) => {
   return arr.slice(start, end)
@@ -159,6 +164,7 @@ shortenArray([1,true,'Pizza', undefined, null], 0, 3)
 
 
 // Merge arrays and sort the merged array
+// ES6 way of array merging (concatinating) and sorting
 
 
 var arrayMerge = (arr1, arr2) => {
