@@ -174,6 +174,14 @@ var arrayMerge = (arr1, arr2) => {
 
 console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
+// Merge array using concat method
+
+var arrayMerge = (arr1, arr2) => {
+  let mergedArr = arr1.concat(arr2)
+  return mergedArr
+}
+
+console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
 
 // ____________________________________________________________________________________
