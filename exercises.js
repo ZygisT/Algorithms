@@ -370,6 +370,8 @@ removeChars('%ab88$$zz1--)@!!aaab.')
 
 
 // Reverse word with 5 characters or more
+// If word has more than 5 characters reverse the word
+// TODO fix long strings with multiple words not reversing.
 
 
 function reverseWord(arg) {
