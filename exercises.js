@@ -189,6 +189,8 @@ console.log(arrayMerge([100, 50, 1], ['a', 'b', 'c']))
 
 
 // Js Object
+// Simple object that holds some keys and values as well as function
+// Function uses string interpolation / Template strings to return a string
 
 
 var car = {
