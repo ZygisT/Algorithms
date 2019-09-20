@@ -388,6 +388,23 @@ reverseWord('Pizza')
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Remove numbers from the string
+// Use replace method and define expression to remove all numbers from the string
+
+
+function removeNumbers(str) {
+
+  return str.replace(/[0-9]/g, '')
+}
+
+removeNumbers('Paint cost 10$')
+
+
+
 
 
 
