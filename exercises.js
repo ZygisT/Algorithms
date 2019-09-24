@@ -405,6 +405,34 @@ removeNumbers('Paint cost 10$')
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Check the data type of argument
+// Checks basic data types with a NaN catch since NaN is considered a number
+
+
+function typeOfArg(arg){
+
+  if(typeof arg === "string") {
+    return 'Arguement data type is a string'
+  } else if (typeof arg === "number" && !isNaN(arg)) {
+    return 'Arguement data type is a number'
+  } else if (typeof arg === "boolean") {
+    return 'Arguement data type is a boolean'
+  } else {
+    return "Argument is either a NaN, object or undefined"
+  }
+}
+
+
+typeOfArg(NaN)
+
+
+
+
+
 
 
 
