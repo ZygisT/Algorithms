@@ -431,6 +431,25 @@ typeOfArg(NaN)
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Map each index of array
+
+
+function mapArray(arg) {
+
+  arg.map(item => {
+    console.log(item)
+  })
+
+}
+
+mapArray(['John', 'Luke', 'Mike'])
+
+
+
 
 
 
