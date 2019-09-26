@@ -446,7 +446,7 @@ function mapArray(arg) {
 
 }
 
-mapArray(['John', 'Luke', 'Mike'])
+mapArray(['John', 'Luke', 'Mike', [1, 2, 3, [true, false]]])
 
 
 
