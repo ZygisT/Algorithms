@@ -393,7 +393,7 @@ reverseWord('Pizza')
 
 
 // Remove numbers from the string
-// Use replace method and define expression to remove all numbers from the string.
+// Use replace method and define expression to remove all numbers from the string
 
 
 function removeNumbers(str) {
