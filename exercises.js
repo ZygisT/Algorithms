@@ -450,6 +450,24 @@ mapArray(['John', 'Luke', 'Mike', [1, 2, 3, [true, false]]])
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Filter the array of numbers
+
+
+function filterArray(arr) {
+  return arr.filter(num => num > 3)
+}
+
+
+filterArray([1,2,3,4,5])
+
+
+
+
+
 
 
 
