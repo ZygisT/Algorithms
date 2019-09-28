@@ -454,7 +454,7 @@ mapArray(['John', 'Luke', 'Mike', [1, 2, 3, [true, false]]])
 
 
 
-// Filter the array of numbers
+// Filter the array of numbers and return the result
 
 
 function filterArray(arr) {
