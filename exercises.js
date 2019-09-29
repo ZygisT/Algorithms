@@ -458,11 +458,11 @@ mapArray(['John', 'Luke', 'Mike', [1, 2, 3, [true, false]]])
 
 
 function filterArray(arr) {
-  return arr.filter(num => num > 3)
+  return arr.filter(num => num > 3 || typeof num === 'string')
 }
 
 
-filterArray([1,2,3,4,5])
+filterArray([1,2,3,4,5, [1, 5, 8, true], 'Hello', 'This is a string'])
 
 
 
