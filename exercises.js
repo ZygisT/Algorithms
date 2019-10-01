@@ -466,6 +466,24 @@ filterArray([1,2,3,4,5, [1, 5, 8, true], 'Hello', 'This is a string'])
 
 
 
+// ____________________________________________________________________________________
+
+
+
+// Is number even? Return true or false
+
+function isEven(num) {
+  if(num % 3) {
+    return true
+  }
+
+  return false
+}
+
+isEven(10)
+
+
+
 
 
 
